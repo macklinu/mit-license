@@ -1,11 +1,12 @@
 {
   "name": "mit-license",
   "version": "0.0.0-development",
-  "description":
-    "Generate an MIT License file in your current working directory",
+  "description": "Generate an MIT License file in your current working directory",
   "main": "dist/index.js",
   "bin": "dist/cli.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "precommit": "mdu-scripts precommit",
     "build": "mdu-scripts build",
@@ -19,7 +20,10 @@
     "type": "git",
     "url": "https://github.com/macklinu/mit-license.git"
   },
-  "keywords": ["mit", "mit-license"],
+  "keywords": [
+    "mit",
+    "mit-license"
+  ],
   "author": "Macklin Underdown <macklinu@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -31,9 +35,8 @@
     "meow": "^4.0.0"
   },
   "devDependencies": {
-    "babel-preset-flow": "^6.23.0",
     "flow-bin": "^0.64.0",
-    "mdu-scripts": "^2.0.1",
+    "mdu-scripts": "^2.3.0",
     "semantic-release": "^12.4.1",
     "travis-deploy-once": "^4.3.3"
   }
